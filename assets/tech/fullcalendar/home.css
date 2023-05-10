@@ -1,0 +1,65 @@
+#calendar {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  #title{
+    color: #373737;
+    border-bottom: 3px
+    solid #2196f3;
+    background: #e2e2e2;
+    padding: 10px 30px;
+    margin-top: 2em;
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 28px;
+  }
+  
+  /****************/
+  input {
+    display: none;
+  }
+  
+  
+  .fc-content{
+    color: #fff !important;
+  }
+  
+  
+  
+  #btnCerrar{
+    color: #e1070f;
+    padding: 5px 5px 5px 5px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto!important;
+  }
+
+  #btnCerrar:hover{
+    cursor: pointer;
+    background-color: #333;
+    color: #f6f6f6;
+  }
+  
+  
+  
+  .circu{
+    padding: 25px;
+    background: #ccc;
+    border-radius: 50px;
+  }
+  
+  #grupoRadio label:hover{
+    cursor: pointer;
+  }
+  
+  #grupoRadio input[type="radio"]:checked + label {
+    border: 3px solid #ccc !important;  
+  }
+  
+  
+  .activado input[type=radio]:checked + label {
+    border: 3px solid #555 !important;  
+  }
